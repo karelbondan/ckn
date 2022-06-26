@@ -87,8 +87,12 @@ declared statement.
 ```
 function dhuar() -> "bumi datar"
 
-function waras()
-    let orang_waras = "percaya bumi bulat"
+function waras(yang_bener)
+    if yang_bener == true:
+        let orang_waras = "percaya bumi bulat"
+    else
+        let orang_waras = "ga waras"
+    end
     return orang_waras
 end
 ```
