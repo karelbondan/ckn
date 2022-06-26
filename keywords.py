@@ -1,0 +1,1 @@
+KEYWORDS = ['let','and','or','not','if','elif','else','for','until','step','while','function','then','end','return','continue','break']
