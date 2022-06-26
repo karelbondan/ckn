@@ -37,6 +37,19 @@ python shell.py
 ```
 
 ## **Syntaxes**
+Before jumping into the syntaxes, I should mention that CKN can be operated in two ways:\
+by directly using the shell or by using a text editor.\
+Since this is a school project and I'm broke you can use any text editor out there. If you\
+want to use Notepad feel free, but what the heck is wrong with you. If you decided to\
+use a text editor to make a CKN program, make sure the extension of the file is `.ckn`, \
+because I'm a narcissist. To execute the source code written inside the `.ckn` file, put the\
+file in the same directory as where `shell.py`, heck, the entire project resides. Type
+```sh
+<filename>.ckn
+```
+into the CKN console (execute `shell.py` first) and CKN will know that you are trying to\
+execute a program written inside a file. Without further a do, here are the syntaxes for CKN:
+
 ### **Variable declaration**
 The value of the variable can be either numbers or strings. Strings must be declared with\
 double quotation marks ("..."). Single quotation mark will not work. The syntax is `let <var_name> = <value>`
